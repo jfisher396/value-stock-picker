@@ -28,22 +28,36 @@
         </form>
       </div>
     </nav>
-    <div class="container">
-      <div class="row align-items-center">
 
-        <div id="recent-searches-div" class="col card" style="width: 25%">
+    <div class="container">
+      <div class="row">
+        <!--div of recently searched stocks-->
+        <div id="recent-searches-div" class="col-3 card">
           <div class="card-body">
             <h5 class="card-title">Recent Searches</h5>
           </div>
         </div>
 
-        <div id="recent-searches-div" class="card" style="width: 50%">
-          <div class="card-body">
-            <h5 class="card-title">Stock Info</h5>
+        <!--div of stock info pulled from API-->
+        <div id="stock-info-div" class="col-6 card">
+          <div id="stock-info-div__body" class="card-body">
+            <div id="stock-symbol-div">
+                <h5 id="stock-symbol" class="card-title">SYMBOL</h5>
+            </div>
+            <div id="company-name-div">
+                <h5 id="company-name" class="card-title">COMPANY NAME</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">Column 1</div>
+            <div class="col-7">Column 2</div>
           </div>
         </div>
 
-        <div id="recent-searches-div" class="col card" style="width: 25%">
+
+
+        <!--div of EPS history-->
+        <div id="eps-history-div" class="col card">
           <div class="card-body">
             <h5 class="card-title">EPS History</h5>
           </div>

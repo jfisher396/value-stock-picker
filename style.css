@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
     height: 120px;
+}
+
+#stock-info-div__body {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 102, 158);
+}
+
+#stock-symbol-div {
+    height: 50px;
+    width: 25%;
+    padding: 10px 30px;
+    display: flex;
+    background-color: white;
+    border: 2px solid rgb(65, 65, 65);
+}
+
+#company-name-div {
+    height: 50px;
+    width: 60%;
+    display: flex;
+    padding: 10px 30px;
+    background-color:white;
+    border: 2px solid rgb(65, 65, 65);
 }
